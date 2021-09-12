@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container">
+  <form id="contact"  action=""   method="post" role="form"> {% csrf_token %}
+    <h3>Biz bilan bog'laning</h3>
+    <h4>Bizga savollaringiz bormi?</h4>
+    <fieldset>
+      <input name ="name" placeholder="Ismingiz" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input name = "email" placeholder="Email manzilingiz" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input name="phone" placeholder="Telefon raqamingiz" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input  name = "subject" placeholder="Nima mavzuda"  type='text' tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea name = "message" placeholder="Xabaringizni shu yerga qoldiring..." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button  name = "submit" type="submit" id="contact-submit" data-submit="...Sending">Yuborish</button>
+    </fieldset>
+    <p class="copyright">Designed by <a href="https://t.me/Shukurali1" target="_blank" title="Colorlib">Shukurali</p>
+  </form>
+</div>
+
+{% endblock content %}
