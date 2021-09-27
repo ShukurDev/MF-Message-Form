@@ -2,8 +2,15 @@
 <head>
     <title>Home sahifa</title>
 </head>
+
+<body>
+
     {% block content %}
     <h1>
         Salom bu bosh sahifa
     </h1>
+
+    <h2>Siz Admin ga Xabar yuborishingiz mumkin buning uchun quyidagi linkga kiring </h2>
+    <a  href="{% url 'contactform' %}">LINK</a>
+</body>
     {% endblock content %}
