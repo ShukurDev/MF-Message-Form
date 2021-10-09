@@ -5,11 +5,11 @@
 
 # Working principle:
 > **This form is for the user to send a message to the admin**
-[x]1. Ism
-[x]2. Last name.
-[x]3. Email
-[x]4. Message subject
-[x]5. Message text
+- [x]1. Ism
+- [x]2. Last name.
+- [x]3. Email
+- [x]4. Message subject
+- [x]5. Message text
 
 # Recommendation:
 **This form can be downloaded and used on any site.**
